@@ -14,8 +14,8 @@
 		$("#exnav02").hide();
 	})
 	$("#exn1_02").click(function(){
-		$("#exnav01").hide();
-		$("#exnav02").show();
+		$("#exnav01").show();
+		$("#exnav02").hide();
 	})
 	$("#exn1_03").click(function(){
 		$("#exnav01").hide();
