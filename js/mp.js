@@ -17,4 +17,8 @@
 		$("#exnav01").hide();
 		$("#exnav02").show();
 	})
+	$("#exn1_03").click(function(){
+		$("#exnav01").hide();
+		$("#exnav02").show();
+	})
 })
