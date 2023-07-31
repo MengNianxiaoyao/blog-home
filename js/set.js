@@ -30,8 +30,10 @@ function getBgImg() {
 let bg_img_preinstall = {
     "type": "1", // 1:默认背景 2:每日一图 3:随机风景 4:随机动漫
     "2": "https://api.dujin.org/bing/1920.php", // 每日一图
-    "3": "https://api.ixiaowai.cn/gqapi/gqapi.php", // 随机风景
-    "4": "https://api.ixiaowai.cn/api/api.php" // 随机动漫
+    "3": "https://t.mwm.moe/fj", // 随机动漫风景
+    "4": "https://t.mwm.moe/pc", // 随机动漫(PC)
+    "5": "https://t.mwm.moe/mp" // 随机动漫(手机)
+
 };
 
 // 更改背景图片
@@ -47,11 +49,15 @@ function setBgImgInit() {
             $('#bg').attr('src', bg_img_preinstall[2]); //必应每日
             break;
         case "3":
-            $('#bg').attr('src', bg_img_preinstall[3]); //随机风景
+            $('#bg').attr('src', bg_img_preinstall[3]); //随机动漫风景
             break;
         case "4":
             $('#bg').attr('src', bg_img_preinstall[4]); //随机动漫
             break;
+        case "5":
+            $('#bg').attr('src', bg_img_preinstall[4]); //随机动漫
+            break;
+
     }
 };
 
