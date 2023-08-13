@@ -14,7 +14,7 @@ let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
 let id = "8598424711"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
-    url: "https://api.wuenci.com/meting/api/?server=" + server + "&type=" + type + "&id=" + id,
+    url: "http://apimeting.mnxy.eu.org/api/?server=" + server + "&type=" + type + "&id=" + id,
     type: "GET",
     dataType: "JSON",
     success: function (data) {
