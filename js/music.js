@@ -14,7 +14,7 @@ let type = "playlist"; //song: 单曲; playlist: 歌单; album: 唱片
 let id = "443797814"; //封面 ID / 单曲 ID / 歌单 ID
 
 $.ajax({
-    url: "https://meting.qjqq.cn/?server=" + server + "&type=" + type + "&id=" + id,
+    url: "https://meting.zhheo.com/?server=" + server + "&type=" + type + "&id=" + id,
     type: "GET",
     dataType: "JSON",
     success: function (data) {
