@@ -412,10 +412,10 @@ let title2 = `
 ╚═╝  ╚═╝╚═╝╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝ ╚═════╝ 
 `
 let content = `
-版 本 号：1.0
-更新日期：2023-01-07
+版 本 号：3.0
+更新日期：2023-09-07
 
-主页:  https://www.lwtxiaoyao.top
+主页:  https://www.mnxy.eu.org
 Github:  https://github.com/MengNianxiaoyao
 `
 console.log(`%c${title1} %c${title2}
